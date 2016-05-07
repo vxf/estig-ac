@@ -1,3 +1,7 @@
+; blinky.asm
+; a simple assembly-only blinky
+;
+; vxf
 
 	.global  main		; makes main accessible from outside this file.
 	
@@ -54,10 +58,10 @@ main:
 	ldr R6, GPIOHBCTL
 	str R0, [R6]
 	
-	mov R0, #0x0E 	; enable the 3 RGB pins
+	mov R0, #0x0E 	; the 3 RGB pins
 	ldr R6, PORT_F
-	strb R0, [R6, #GPIODIR] ; set pin 1 for output
-	strb R0, [R6, #GPIODEN] ; enable pin 1 function
+	strb R0, [R6, #GPIODIR] ; enable output on the 3
+	strb R0, [R6, #GPIODEN] ; enable the pins
 
 	; R0 can be our led state
 	strb R0, [R6, #LED_COLOR]
