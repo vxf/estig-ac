@@ -24,6 +24,7 @@ The Files
 - [assets/bmp2c.py](assets/bmp2c.py) - python script to convert a bitmap file to assembler or "C array" style
 - [assets/judy.bmp](assets/judy.bmp) - 1bit bitmap
 - [assets/judy_m.bmp](assets/judy_m.bmp) - 1bit mask bitmap for transparencies
+- [judy.asm](judy.asm) - the bitmap converted as an assembler include
 
 The Things
 ----------
