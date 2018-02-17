@@ -27,3 +27,5 @@ The Files
 
 The Things
 ----------
+![alt text](https://raw.githubusercontent.com/vxf/estig-ac/master/display1/assets/PIC120.jpg "The setup")
+![alt text](https://raw.githubusercontent.com/vxf/estig-ac/master/display1/assets/PIC121.jpg "Detail")
