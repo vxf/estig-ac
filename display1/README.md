@@ -19,11 +19,11 @@ The Pinout
 
 The Files
 ---------
-- [pcd8544.asm](../blob/master/pcd8544.asm) - several, hopefuly useful, asm routines to setup and comunicate with the LCD and printing images
-- [main.asm](../blob/master/main.asm) - a little test with bitmaps (may not be currently in a working state)
-- [assets/bmp2c.py](../blob/master/assets/bmp2c.py) - python script to convert a bitmap file to assembler or "C array" style
-- [assets/judy.bmp](../blob/master/assets/judy.bmp) - 1bit bitmap
-- [assets/judy_m.bmp](../blob/master/assets/judy_m.bmp) - 1bit mask bitmap for transparencies
+- [pcd8544.asm](pcd8544.asm) - several, hopefuly useful, asm routines to setup and comunicate with the LCD and printing images
+- [main.asm](main.asm) - a little test with bitmaps (may not be currently in a working state)
+- [assets/bmp2c.py](assets/bmp2c.py) - python script to convert a bitmap file to assembler or "C array" style
+- [assets/judy.bmp](assets/judy.bmp) - 1bit bitmap
+- [assets/judy_m.bmp](assets/judy_m.bmp) - 1bit mask bitmap for transparencies
 
 The Things
 ----------
